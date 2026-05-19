@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AYLA RIVERA — Lifestyle Creator & Storyteller</title>
+  <meta name="description" content="The official handle of Ayla Rivera — lifestyle creator, brand collaborator, and digital storyteller. 2.4M+ community across the globe." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800;9..144,900&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-text">
+      <span>A</span><span>Y</span><span>L</span><span>A</span>
+      <span class="dot">.</span>
+    </div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <!-- ===== CUSTOM CURSOR ===== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===== SCROLL PROGRESS ===== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ===== AMBIENT ORBS ===== -->
+  <div class="orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav" id="nav">
+    <a href="#" class="nav-logo" data-magnetic>
+      <span class="logo-mark">A</span>
+      <span class="logo-text">ayla<em>.rivera</em></span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#about" class="nav-link"><span>01</span> About</a>
+      <a href="#work" class="nav-link"><span>02</span> Work</a>
+      <a href="#brands" class="nav-link"><span>03</span> Brands</a>
+      <a href="#contact" class="nav-link"><span>04</span> Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta" data-magnetic>
+      <span>Collaborate</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M13 5l7 7-7 7" />
+      </svg>
+    </a>
+
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#brands">Brands</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="hero-meta">
+      <div class="meta-item reveal"><span class="dot-live"></span> Available for Q3 collabs</div>
+      <div class="meta-item reveal" data-delay="100">Based in Lisbon · Working worldwide</div>
+    </div>
+
+    <h1 class="hero-title">
+      <span class="line"><span class="word">Lifestyle</span></span>
+      <span class="line"><span class="word italic">stories</span> <span class="word">that</span></span>
+      <span class="line"><span class="word">feel</span> <span class="word gradient">alive.</span></span>
+    </h1>
+
+    <div class="hero-bottom">
+      <p class="hero-lead reveal" data-delay="300">
+        I'm Ayla — a creator turning everyday moments into films, frames, and feelings for a community of <strong>2.4M</strong> across the globe.
+      </p>
+
+      <div class="hero-actions reveal" data-delay="400">
+        <a href="#work" class="btn btn-primary" data-magnetic>
+          <span>See the work</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost" data-magnetic>Say hello</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"><div></div></div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Storytelling</span><span class="star">✦</span>
+      <span>Editorial</span><span class="star">✦</span>
+      <span>Travel</span><span class="star">✦</span>
+      <span>Beauty</span><span class="star">✦</span>
+      <span>Fashion</span><span class="star">✦</span>
+      <span>Wellness</span><span class="star">✦</span>
+      <span>Storytelling</span><span class="star">✦</span>
+      <span>Editorial</span><span class="star">✦</span>
+      <span>Travel</span><span class="star">✦</span>
+      <span>Beauty</span><span class="star">✦</span>
+      <span>Fashion</span><span class="star">✦</span>
+      <span>Wellness</span><span class="star">✦</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <span class="eyebrow reveal">About</span>
+      <h2 class="section-title reveal" data-delay="100">
+        Crafting moments that <em>feel</em> like memories before you've finished living them.
+      </h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-portrait reveal" data-delay="200">
+        <div class="portrait-frame" data-tilt>
+          <div class="portrait-img"></div>
+          <div class="portrait-badge">
+            <svg viewBox="0 0 100 100">
+              <defs>
+                <path id="circle" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+              </defs>
+              <text><textPath href="#circle">CREATOR ✦ STORYTELLER ✦ DREAMER ✦ </textPath></text>
+            </svg>
+            <span class="badge-core">'26</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <p class="reveal" data-delay="200">
+          For the last six years I've been documenting a slower, softer way of living — from sunrise hikes in the Algarve to candle-lit dinners in Kyoto. My work sits at the intersection of <em>cinematic storytelling</em> and honest, unfiltered presence.
+        </p>
+        <p class="reveal" data-delay="300">
+          I partner with brands who care about craft, sustainability, and the people on the other side of the screen. Every campaign is treated like a small film — concepted, shot, edited and scored by me and a tiny team I trust.
+        </p>
+
+        <ul class="about-tags reveal" data-delay="400">
+          <li>Concept</li>
+          <li>Direction</li>
+          <li>Photo &amp; Film</li>
+          <li>Edit</li>
+          <li>Voice</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats">
+    <div class="stat reveal">
+      <div class="stat-num" data-count="2.4" data-suffix="M">0</div>
+      <div class="stat-label">Community</div>
+    </div>
+    <div class="stat reveal" data-delay="100">
+      <div class="stat-num" data-count="148" data-suffix="">0</div>
+      <div class="stat-label">Brand campaigns</div>
+    </div>
+    <div class="stat reveal" data-delay="200">
+      <div class="stat-num" data-count="32" data-suffix="">0</div>
+      <div class="stat-label">Countries shot in</div>
+    </div>
+    <div class="stat reveal" data-delay="300">
+      <div class="stat-num" data-count="98" data-suffix="%">0</div>
+      <div class="stat-label">Audience love</div>
+    </div>
+  </section>
+
+  <!-- ===== WORK / CONTENT GRID ===== -->
+  <section class="work" id="work">
+    <div class="section-head">
+      <span class="eyebrow reveal">Selected work</span>
+      <h2 class="section-title reveal" data-delay="100">
+        A handful of <em>moments</em> from the feed.
+      </h2>
+    </div>
+
+    <div class="work-grid">
+      <a class="card card-tall reveal" data-delay="0" href="#" data-tilt>
+        <div class="card-media" style="--g: linear-gradient(135deg,#ffb38a,#ff6f91 60%,#7d3cff)"></div>
+        <div class="card-info">
+          <span class="card-tag">Editorial</span>
+          <h3>Golden hour, Lisbon rooftops</h3>
+          <span class="card-meta">412k views · Reel</span>
+        </div>
+      </a>
+
+      <a class="card reveal" data-delay="100" href="#" data-tilt>
+        <div class="card-media" style="--g: linear-gradient(135deg,#a0e9ff,#5b8def 60%,#1f1f3a)"></div>
+        <div class="card-info">
+          <span class="card-tag">Travel</span>
+          <h3>72 hours in Tokyo</h3>
+          <span class="card-meta">1.1M views · Vlog</span>
+        </div>
+      </a>
+
+      <a class="card reveal" data-delay="200" href="#" data-tilt>
+        <div class="card-media" style="--g: linear-gradient(135deg,#fef0c8,#f7c873 60%,#a8552c)"></div>
+        <div class="card-info">
+          <span class="card-tag">Beauty</span>
+          <h3>The morning ritual film</h3>
+          <span class="card-meta">820k views · Campaign</span>
+        </div>
+      </a>
+
+      <a class="card card-wide reveal" data-delay="100" href="#" data-tilt>
+        <div class="card-media" style="--g: linear-gradient(135deg,#caffbf,#5fc7a8 60%,#0f4c5c)"></div>
+        <div class="card-info">
+          <span class="card-tag">Wellness</span>
+          <h3>Slow mornings, loud minds</h3>
+          <span class="card-meta">Series · 6 episodes</span>
+        </div>
+      </a>
+
+      <a class="card reveal" data-delay="200" href="#" data-tilt>
+        <div class="card-media" style="--g: linear-gradient(135deg,#ffd6e0,#ff85a1 60%,#5a2a4a)"></div>
+        <div class="card-info">
+          <span class="card-tag">Fashion</span>
+          <h3>SS26 lookbook diary</h3>
+          <span class="card-meta">540k views · Editorial</span>
+        </div>
+      </a>
+
+      <a class="card reveal" data-delay="300" href="#" data-tilt>
+        <div class="card-media" style="--g: linear-gradient(135deg,#1a1a2e,#16213e 60%,#0f3460)"></div>
+        <div class="card-info">
+          <span class="card-tag">Film</span>
+          <h3>Midnight in Marrakech</h3>
+          <span class="card-meta">Short film · 4:32</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== BRANDS ===== -->
+  <section class="brands" id="brands">
+    <div class="section-head">
+      <span class="eyebrow reveal">Trusted by</span>
+      <h2 class="section-title reveal" data-delay="100">
+        Brands I've <em>loved</em> working with.
+      </h2>
+    </div>
+
+    <div class="brand-grid">
+      <div class="brand-cell reveal">Aesop</div>
+      <div class="brand-cell reveal" data-delay="60">Loewe</div>
+      <div class="brand-cell reveal" data-delay="120">Aimé Leon Dore</div>
+      <div class="brand-cell reveal" data-delay="180">Glossier</div>
+      <div class="brand-cell reveal" data-delay="240">Hermès</div>
+      <div class="brand-cell reveal" data-delay="60">Acne Studios</div>
+      <div class="brand-cell reveal" data-delay="120">Le Labo</div>
+      <div class="brand-cell reveal" data-delay="180">Apple</div>
+      <div class="brand-cell reveal" data-delay="240">Net-a-Porter</div>
+      <div class="brand-cell reveal" data-delay="120">Jacquemus</div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Kind words</span>
+      <h2 class="section-title reveal" data-delay="100">
+        From the people I've made things with.
+      </h2>
+    </div>
+
+    <div class="testimonial-track" id="testimonialTrack">
+      <article class="testimonial reveal">
+        <p>"Ayla doesn't just create content — she crafts atmosphere. Working with her felt like collaborating with a director, not a creator."</p>
+        <footer><strong>Mara Okafor</strong> · Brand Director, Le Labo</footer>
+      </article>
+      <article class="testimonial reveal" data-delay="100">
+        <p>"The campaign blew our targets out of the water. But the real win was how authentically she translated our world to her audience."</p>
+        <footer><strong>James Thorne</strong> · Head of Marketing, Aesop</footer>
+      </article>
+      <article class="testimonial reveal" data-delay="200">
+        <p>"A rare combination of taste, discipline and warmth. Every frame she sends back is already a campaign."</p>
+        <footer><strong>Sofía Martín</strong> · Creative Lead, Loewe</footer>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CTA ===== -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <span class="eyebrow reveal">Let's make something</span>
+      <h2 class="contact-title reveal" data-delay="100">
+        Got a story <em>worth</em><br/>telling?
+      </h2>
+      <p class="contact-lead reveal" data-delay="200">
+        I open a small number of partnership slots every quarter. If our worlds align, I'd love to hear from you.
+      </p>
+
+      <a href="mailto:hello@aylarivera.co" class="contact-cta reveal" data-delay="300" data-magnetic>
+        <span>hello@aylarivera.co</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+
+      <div class="socials reveal" data-delay="400">
+        <a href="#" data-magnetic>Instagram</a>
+        <a href="#" data-magnetic>TikTok</a>
+        <a href="#" data-magnetic>YouTube</a>
+        <a href="#" data-magnetic>Substack</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <h3 class="footer-mark">ayla<em>.rivera</em></h3>
+      <p>© 2026 — Made with care, between Lisbon &amp; everywhere.</p>
+    </div>
+    <div class="footer-meta">
+      <span>Press · press@aylarivera.co</span>
+      <span>Management · talent@aylarivera.co</span>
+      <a href="#hero" class="back-top" data-magnetic>Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
